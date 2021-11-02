@@ -11,10 +11,10 @@ Create a file which you wish to encrypt. Run the program in mode E for encrypt, 
 
 Absolute paths can be used if run with root privileges. If no path is specified (as below) the file will be created in the local folder.
 
-E.g. FileEncryptor.java E infile.txt crypt.bin Str0ngPassPhrase433$
+E.g. Java FileEncryptor.java E infile.txt crypt.bin Str0ngPassPhrase433$
 
 ## Decrypt mode
 
 Assuming you have generated an ecrypted file, run the program in mode D for decrypt with the path for the encrypted file, the name for an output file and the passphrase used for encryption.
 
-E.g. FileEncryptor.java D crypt.bin outfile.txt Str0ngPassPhrase433$
+E.g. Java FileEncryptor.java D crypt.bin outfile.txt Str0ngPassPhrase433$
